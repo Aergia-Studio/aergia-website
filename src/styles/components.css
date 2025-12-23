@@ -56,3 +56,56 @@ p {
   border: 1px solid rgba(124, 124, 255, 0.2);
   padding: 1.5rem;
 }
+
+/* 🌌 HERO SECTION */
+
+.hero {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* 🧿 Floating Symbol */
+.hero-symbol {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.2;
+}
+
+/* 🕊️ Ghost button */
+.button.ghost {
+  background: transparent;
+  border: 1px solid rgba(124, 124, 255, 0.4);
+  color: var(--color-primary);
+}
+
+.button.ghost:hover {
+  box-shadow: 0 0 20px rgba(124, 124, 255, 0.4);
+}
